@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Tajam</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet">
+	<link href="img/shortcut.png" rel="shortcut icon">
+</head>
+
+<body>
+	<main>
+		<section class="home">
+			<nav class="containerNavigation">
+				<div class="logo">
+					<img src="img/home/logo.png" alt="logo">
+				</div>
+
+				<div class="navigationMenu">
+					<ul>
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#expertise">EXPERTISE</a></li>
+						<li><a href="#team">TEAM</a></li>
+						<li><a href="#works">WORKS</a></li>
+						<li><a href="#peopleSay">PEOPLE SAY</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div style="clear: both;"></div>
+
+			<div class="carousel">
+				<div class="sliderHomeContainer">
+					<div class="lineOfHomeSlider" id="lineOfHomeSlider">
+						<div class="slideHome">
+							<h1><a name="home">We Are Awesome Creative Agency</a></h1>
+							<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+								sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+								accumsan ipsum velit.</p>
+							<a class="warpButton" href="">LEARN MORE</a>
+						</div>
+
+						<div class="slideHome">
+							<h1>2We Are Awesome Creative Agency</h1>
+							<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean Soollicitidin, lorem quis bebendum auctor, nisi elit consequat ipsun, nec
+								sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
+								mauris. Morbi accumsan ipsun velit.</p>
+							<a class="warpButton" href="">LEARN MORE</a>
+						</div>
+
+						<div class="slideHome">
+							<h1>3We Are Awesome Creative Agency</h1>
+							<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean Soollicitidin, lorem quis bebendum auctor, nisi elit consequat ipsun, nec
+								sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
+								mauris. Morbi accumsan ipsun velit.</p>
+							<a class="warpButton" href="">LEARN MORE</a>
+						</div>
+
+						<div class="slideHome">
+							<h1>4We Are Awesome Creative Agency</h1>
+							<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean Soollicitidin, lorem quis bebendum auctor, nisi elit consequat ipsun, nec
+								sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet
+								mauris. Morbi accumsan ipsun velit.</p>
+							<a class="warpButton" href="">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="sliderHomeDots">
+					<span class="homeDots" onclick="showHomeSlide(0)"></span>
+					<span class="homeDots" onclick="showHomeSlide(1)"></span>
+					<span class="homeDots" onclick="showHomeSlide(2)"></span>
+					<span class="homeDots" onclick="showHomeSlide(3)"></span>
+				</div>
+			</div>
+		</section>
+
+		<section class="ourStory">
+			<div style="clear: both;"></div>
+			<div class="containerOurStory">
+				<div class="biggerLogo">
+					<img src="img/ourStory/bigLogo.png" alt="bigLogo">
+				</div>
+				<div class="storyText">
+					<h2><a name="about">OUR STORY</a></h2>
+					<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+						sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id
+						elit. Duis sed odio sit amet nibh vulputate cursus</p>
+					<p style="margin-bottom: 45px;">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+						ornare odio. Sed non mauris
+						vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
+						conubia nostra, per inceptos himenaeos.</p>
+					<a class="warpButton" href="">LEARN MORE</a>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+		</section>
+
+		<section class="videoOurStory">
+			<div class="containerVideoOurStory">
+				<div class="videoBlock">
+					<video id="videoPlayer">
+						<source src="video/videoOurStory/file.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<a id="playButton" onclick="play()">
+						<img src="img/videoOurStory/watchOurStory.png" alt="startVideo"><br>
+						WATCH OUR STORY
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="expertise">
+			<div class="containerExpertise">
+				<div class="announcement announcementExpertise">
+					<h2><a name="expertise">EXPERTISE</a></h2>
+					<p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+				</div>
+
+				<div class="contentExpertise">
+					<ul class="expertiseRow topRow">
+						<li>
+							<img src="img/expertise/webDesignIcon.png" alt="webDesignIcon">
+							<span>WEB DESIGN & DEVELOPMENT</span>
+							This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet
+							Aenean.
+						</li>
+						<li>
+							<img src="img/expertise/brandingIcon.png" alt="brandingIcon">
+							<span>BRANDING IDENTITY</span>
+							This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet
+							Aenean.
+						</li>
+						<li style="border-right: none">
+							<img src="img/expertise/mobileAppIcon.png" alt="mobileAppIcon">
+							<span>MOBILE APP</span>
+							This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet
+							Aenean.
+						</li>
+					</ul>
+
+					<ul class="expertiseRow bottomRow">
+						<li>
+							<img src="img/expertise/optimisationIcon.png" alt="webDesignIcon">
+							<span>WEB DESIGN & DEVELOPMENT</span>
+							This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet
+							Aenean.
+						</li>
+						<li>
+							<img src="img/expertise/gameDevelopmentIcon.png" alt="brandingIcon">
+							<span>BRANDING IDENTITY</span>
+							This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet
+							Aenean.
+						</li>
+						<li style="border-right: none">
+							<img src="img/expertise/loveIcon.png" alt="mobileAppIcon">
+							<span>MOBILE APP</span>
+							This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet
+							Aenean.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section class="team">
+			<div class="containerTeam">
+				<div class="announcement announcementTeam">
+					<h2><a name="team">MEET OUR AMAZING TEAM</a></h2>
+					<p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+				</div>
+
+				<div class="contentTeam">
+					<ul class="teamMembers">
+						<li>
+							<img src="img/team/teamMemberTemplate.png" alt="ceo&Founder">
+							<p><span>SEMF UCUK</span>CEO & FOUNDER</p>
+						</li>
+						<li>
+							<img src="img/team/teamMemberTemplate.png" alt="engineering">
+							<p><span>DIK ADALIN</span>ENGINEERING</p>
+						</li>
+						<li>
+							<img src="img/team/teamMemberTemplate.png" alt="designer">
+							<p><span>JENG KOL</span>DESIGNER</p>
+						</li>
+						<li>
+							<img src="img/team/teamMemberTemplate.png" alt="marketing">
+							<p><span>PET ROMAK</span>MARKETING</p>
+						</li>
+					</ul>
+
+					<div class="buttonOfTeamSection">
+						<p>Become part of our dream team, let's join us!</p>
+						<a class="warpButton" href="">WE ARE HIRING</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ourWorks">
+			<div class="containerOurWorks">
+				<div class="announcementOurWorks">
+					<h2><a name="works">OUR WORKS</a></h2>
+					<p><a href="">See All Project in dribble <img src="img/team/greaterThanSign.png"
+								alt="greaterThanSign"></a></p>
+				</div>
+
+				<div style="clear: both;"></div>
+
+				<div class="contentOurWorks">
+					<div class="worksShowcase">
+						<img src="img/ourWorks/worksTemplate1.png" alt="firstWork"
+							onclick="openModal(); currentSlide(1)">
+						<img src="img/ourWorks/worksTemplate2.png" alt="secondWork"
+							onclick="openModal(); currentSlide(2)">
+						<img src="img/ourWorks/worksTemplate3.png" alt="thirdWork"
+							onclick="openModal(); currentSlide(3)">
+						<img src="img/ourWorks/worksTemplate4.png" alt="fourthWork"
+							onclick="openModal(); currentSlide(4)">
+						<img src="img/ourWorks/worksTemplate1.png" alt="fifthWork"
+							onclick="openModal(); currentSlide(5)">
+						<img src="img/ourWorks/worksTemplate5.png" alt="sixthWork"
+							onclick="openModal(); currentSlide(6)">
+						<img src="img/ourWorks/worksTemplate6.png" alt="seventhWork"
+							onclick="openModal(); currentSlide(7)">
+						<img src="img/ourWorks/worksTemplate7.png" alt="eighthWork"
+							onclick="openModal(); currentSlide(8)">
+						<img src="img/ourWorks/worksTemplate8.png" alt="ninthWork"
+							onclick="openModal(); currentSlide(9)">
+						<img src="img/ourWorks/worksTemplate3.png" alt="tenthWork"
+							onclick="openModal(); currentSlide(10)">
+						<img src="img/ourWorks/worksTemplate2.png" alt="eleventhWork"
+							onclick="openModal(); currentSlide(11)">
+						<img src="img/ourWorks/worksTemplate1.png" alt="twelfthWork"
+							onclick="openModal(); currentSlide(12)">
+					</div>
+
+					<div id="myModal" class="modal">
+						<span onclick="closeModal()">×</span>
+
+						<div class="modalContent">
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate1.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate2.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate3.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate4.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate1.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate5.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate6.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate7.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate8.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate3.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate2.png"></div>
+							<div class="mySlides"><img src="img/ourWorks/worksTemplate1.png"></div>
+
+							<a class="prev" onclick="plusSlides(-1)">❮</a>
+							<a class="next" onclick="plusSlides(1)">❯</a>
+						</div>
+					</div>
+
+					<div class="buttonOfOurWorksSection">
+						<a class="warpButton" href="">LOAD MORE</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="peopleSay">
+			<div class="containerPeopleSay">
+				<div class="lineOfPeopleSaySlider" id="lineOfPeopleSaySlider">
+					<div class="slideReviews">
+
+						<div class="reviews">
+							<a name="peopleSay"><img src="img/peopleSay/doubleQuote.png" alt="doubleQuote"></a>
+							<p>1This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+								sem
+								nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+								accumsan
+								ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae
+								erat
+								consequat auctor eu in elit.</p>
+						</div>
+						<div class="reviewers">
+							<h2>TITUS MEDE</h2>
+							<p>EMPEROR OF TAMRIAEL</p>
+						</div>
+					</div>
+
+					<div class="slideReviews">
+						<div class="reviews">
+							<a name="peopleSay"><img src="img/peopleSay/doubleQuote.png" alt="doubleQuote"></a>
+							<p>2This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+								sem
+								nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+								accumsan
+								ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae
+								erat
+								consequat auctor eu in elit.</p>
+						</div>
+						<div class="reviewers">
+							<h2>ULFRIC STORMCLOAK</h2>
+							<p>JARL OF WINDHELM</p>
+						</div>
+					</div>
+
+					<div class="slideReviews">
+						<div class="reviews">
+							<a name="peopleSay"><img src="img/peopleSay/doubleQuote.png" alt="doubleQuote"></a>
+							<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+								sem
+								nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+								accumsan
+								ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae
+								erat
+								consequat auctor eu in elit.</p>
+						</div>
+						<div class="reviewers">
+							<h2>JANE GALADRIEL</h2>
+							<p>CEO TENGKUREP</p>
+						</div>
+					</div>
+
+					<div class="slideReviews">
+						<div class="reviews">
+							<a name="peopleSay"><img src="img/peopleSay/doubleQuote.png" alt="doubleQuote"></a>
+							<p>4This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+								sem
+								nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+								accumsan
+								ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae
+								erat
+								consequat auctor eu in elit.</p>
+						</div>
+						<div class="reviewers">
+							<h2>ELISIF THE FAIR</h2>
+							<p>JARL OF SOLITUDE</p>
+						</div>
+					</div>
+
+					<div class="slideReviews">
+						<div class="reviews">
+							<a name="peopleSay"><img src="img/peopleSay/doubleQuote.png" alt="doubleQuote"></a>
+							<p>5This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+								Aenean
+								sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+								nibh
+								id
+								elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+								ipsum
+								velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+								consequat
+								auctor eu in elit.</p>
+						</div>
+						<div class="reviewers">
+							<h2>MARAMAL</h2>
+							<p>PRIEST OF MARA</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="avatars">
+					<div class="avatarsRow">
+						<div class="previousButton" id="previousButton"><img src="img/peopleSay/previousButton.png"
+								alt="previousButton"></div>
+
+						<div class="sliderOfAvatars">
+							<div class="peopleSayDots"><img src="img/peopleSay/people/2Huge.png" alt="thirdReviewer">
+							</div>
+							<div class="peopleSayDots"><img src="img/peopleSay/people/3.png" alt="fourthReviewer"></div>
+							<div class="peopleSayDots"><img src="img/peopleSay/people/4.png" alt="fifthReviewer"></div>
+							<div class="peopleSayDots"><img src="img/peopleSay/people/0.png" alt="firstReviewer"></div>
+							<div class="peopleSayDots"><img src="img/peopleSay/people/1.png" alt="secondReviewer"></div>
+						</div>
+
+						<div class="nextButton" id="nextButton"><img src="img/peopleSay/nextButton.png"
+								alt="nextButton"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="containerContact">
+				<div style="clear:both;"></div>
+
+				<div class="formColumn">
+					<h2 class="columnAnnouncement"><a name="contact">GIVE US A GOOD NEWS</a></h2>
+					<form name="form" action="javascript:void(null);" method="POST" id="formMessage">
+						<input type="text" id="name" name="name" placeholder="Name" autocomplete="off" maxlength="200"
+							required>
+						<input type="text" id="email" name="email" placeholder="Email" autocomplete="off"
+							maxlength="200" required>
+						<input type="text" id="subject" name="subject" placeholder="Subject" autocomplete="off"
+							maxlength="200" required>
+						<textarea id="message" name="message" placeholder="Your Message" autocomplete="off"
+							maxlength="1000"></textarea>
+						<div class="formContanctsSend">
+							<input type="submit" id="submit" value="SUBMIT">
+						</div>
+					</form>
+				</div>
+
+				<div class="clientColumn">
+					<h2 class="columnAnnouncement">OUR HAPPY CLIENT</h2>
+					<div class="clientLogo">
+						<div class="leftColumnClient">
+							<img src="img/contact/zaraLogo.png" alt="zaraLogo" style="margin-bottom: 48px;">
+							<img src="img/contact/barneysLogo.png" alt="barneysLogo" style="margin-bottom: 49px;">
+							<img src="img/contact/calvinKleinLogo.png" alt="calvinKleinLogo"
+								style="margin-bottom: 54px;">
+							<img src="img/contact/converseLogo.png" alt="converseLogo" style="margin-bottom: 50px;">
+							<img src="img/contact/levisLogo.png" alt="levisLogo">
+						</div>
+
+						<div class="rightColumnClient">
+							<img src="img/contact/mangoLogo.png" alt="mangoLogo" style="margin-bottom: 60px;">
+							<img src="img/contact/gucciLogo.png" alt="gucciLogo" style="margin-bottom: 54px;">
+							<img src="img/contact/nikeLogo.png" alt="nikeLogo" style="margin-bottom: 54px;">
+							<img src="img/contact/pumaLogo.png" alt="pumaLogo" style="margin-bottom: 29px;">
+							<img src="img/contact/billbongLogo.png" alt="billbongLogo">
+						</div>
+					</div>
+				</div>
+
+				<div style="clear:both;"></div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="links">
+		<div class="containerLinks">
+
+			<ul class="contentLinks">
+				<li class="commonInformation">
+					<img src="img/links/tajamLogoFooter.png" alt="tajamLogo">
+					<p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed
+						odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+				</li>
+
+				<li class="ourStudio">
+					<p class="announcementLinks">OUR STUDIO</p>
+					<p style="margin-bottom: 13px;"><img src="img/links/pin.png" alt="pin">
+						Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 -
+						Indonesia
+					</p>
+					<div style="clear: both;"></div>
+					<p><img src="img/links/phone.png" alt="pin" style="margin-bottom: 0;">
+						(+62) 21-2224 3333</p>
+				</li>
+
+				<li class="stayInTouch">
+					<p class="announcementLinks">STAY IN TOUCH</p>
+					<a href=""><img src="img/links/logo/facebookLogo.png" alt="facebookLogo"></a>
+					<a href=""><img src="img/links/logo/twitterLogo.png" alt="twitterLogo"></a>
+					<a href=""><img src="img/links/logo/instagramLogo.png" alt="instagramLogo"></a>
+					<a href=""><img src="img/links/logo/dribbleLogo.png" alt="dribbleLogo"></a>
+					<a href=""><img src="img/links/logo/youtubeLogo.png" alt="youtubeLogo"></a>
+				</li>
+			</ul>
+
+			<div class="bottomOfLinksSection">
+				<div class="contactLinks">
+					<a href="">HELP</a>
+					<a href="">TEMPS & CONDITION</a>
+					<a href="">PRIVACY</a>
+				</div>
+
+				<div class="copyright">
+					<p>Copyright © 2015 - Tajem Creative</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script/formMail.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+	<script src="script/sliderPeopleSay.js"></script>
+	<script src="script/lightbox.js"></script>
+	<script src="script/sliderHome.js"></script>
+	<script src="script/video.js"></script>
+</body>
+
+</html>
