@@ -1,0 +1,1186 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* general */
+
+.announcementSection {
+	width: 666px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 124px 0 0 0;
+}
+
+.announcementSection h2{
+	margin: 0;
+	font-family: "MontserratBold";
+	font-size: 38px;
+	color: black;
+	padding: 0 0 5px 0;
+}
+
+.announcementSection p{
+	margin: 0;
+	font-family: "MerriweatherRegular";
+	font-size: 18px;
+	color: #5e5f5f;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+/* sideMenu */
+
+.sideMenu {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #eaebed;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+	-webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.sideMenu a {
+	display: block;
+	text-align: center;
+	padding: 15px 0 15px 0;
+	font-family: "MontserratBold";
+	font-size: 18px;
+	color: #505050;
+	transition: 0.6s ease;
+}
+
+.sideMenu a:hover {
+	background-color: #77efe5;
+}
+
+.closeButton:hover {
+	background-color: none;
+}
+
+.closeButton {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	margin-right: 50px;
+	cursor: pointer;
+	transition: 0.6s ease;
+}
+
+.closeButton:hover {
+	transform: rotate(180deg);
+}
+
+/* home */
+
+.home {
+	min-height: 805px;
+	background: url("img/home/homeBackground.png") no-repeat center center;
+	background-size: cover;
+}
+
+.containerHome {
+	max-width: 1138px;
+	margin: 0 auto;
+}
+
+.navigationMenu {
+	padding: 64px 0 0 0;
+}
+
+.logoString {
+	float: left;
+	width: 7%;
+	font-family: "MontserratBold";
+	font-size: 17px;
+	color: black;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+.logoString p {
+	margin: 0;
+}
+
+.logoString span {
+	font-size: 18px;
+	color: #77efe5;
+	-webkit-text-stroke: 1px #a4c3c2;
+}
+
+.dropDownMenu {
+	position: relative;
+	float: right;
+	text-align: right;
+}
+
+.hamburgerButton {
+	cursor: pointer;
+	transition: 0.6s ease;
+	margin: 16px 0 0 0;
+}
+
+.dropDownMenu:hover .hamburgerButton {
+	transform: rotate(180deg);
+}
+
+.announcementHome {
+	width: 1000px;
+	margin: 204px auto 0 auto;
+	text-align: center;
+}
+
+.announcementHome h1 {
+	margin: 0;
+	font-family: "MontserratBold";
+	font-size: 45px;
+	color: #505050;
+	text-shadow: #9b9c9d 5px 5px 11px;
+}
+
+.announcementHome span {
+	padding: 5px 9px;
+	background-color: #adebe7;
+}
+
+.contactButton {
+	display: block;
+	width: 230px;
+	font-family: "MontserratRegular";
+	font-size: 18px;
+	color: #3c3c3d;
+	padding: 18px 46px;
+	border: 2px solid #777879;
+	margin: 122px auto 0 auto;
+}
+
+.contactButton:hover {
+	background-color: #777879;
+	color: #eff0f2;
+	transition: all ease 1s;
+}
+
+@media (max-width: 1138px) {
+	.logoString {
+		padding: 10px 18px 6px 5px;
+	}
+}
+
+/* aboutUs */
+
+.aboutUs {
+	min-height: 985px;
+	background-color: #f8fafa;
+}
+
+.containerAboutUs {
+	max-width: 1066px;
+	margin: 0 auto;
+}
+
+.contentAboutUs {
+	margin: 148px 0 0 0;
+}
+
+.sliderAboutUs {
+	min-height: 536px;
+	max-width: 479px;
+	float: left;
+}
+
+.sliderAboutUsContainer {
+	height: 483px;
+	width: 479px;
+	overflow: hidden;
+}
+
+.lineOfAboutUsSlider {
+	width: 1916px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+.lineOfHomeSlider::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.slideAboutUs {
+	position: relative;
+	width: 479px;
+	float: left;
+}
+
+.frontImgAboutUs {
+	position: relative;
+	left: 9.4%;
+	box-shadow: 0px 0px 28px rgba(29, 15, 15, 0.1);
+}
+
+.backImgAboutUs {
+	position: absolute;
+	top: 7.4%;
+}
+
+.sliderAboutUsDots {
+	text-align: center;
+}
+
+.aboutUsDots{
+	height: 10px;
+	width: 10px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	cursor: pointer;
+	margin: 39px 0 0 0;
+}
+
+.activeDotsForAboutUs {
+	background-color: #71f6eb;
+} 
+
+.aboutUsText {
+	float: right;
+	width: 470px;
+	margin: 0 0 46px;
+}
+
+.aboutUsText h2 {
+	font-family: "MerriweatherRegular";
+	font-size: 20px;
+	color: #3e3f3f;
+	margin: 0 0 32px 0;
+}
+
+.aboutUsText p {
+	font-family: "RalewayRegular";
+	font-size: 16px;
+	color: #404141;
+	margin: 0 0 41px 0;
+	line-height: 1.6em;
+}
+
+/* featuredWorks */
+
+.featuredWorks {
+	min-height: 1166px;
+}
+
+.containerFeaturedWorks {
+	max-width: 1155px;
+	margin: 0 auto;
+}
+
+.contentFeaturedWorks {
+	margin: 123px 0 110px 0;
+}
+
+.worksShowcase {
+	font-size: 0;
+	
+}
+
+.worksShowcase img:hover {
+	box-shadow: 0 0 20px #4d4d4d;
+}
+
+.worksShowcase img {
+	transition: 0.6s ease;
+	margin: 0 7.5px 15px 7.5px;
+	cursor: pointer;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalContent {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	max-width: 40%;
+	max-height: 40%;
+}
+
+.modal span {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.modal span:hover,
+.modal span:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modalSlide {
+	display: none;
+}
+
+.modalSlide img {
+	width: 100%;
+	height: 100%;
+}
+
+.previousModalSlide,
+.nextModalSlide {
+	cursor: pointer;
+	position: absolute;
+	top: 90%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.previousModalSlide {
+	left: 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.nextModalSlide {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.previousModalSlide:hover,
+.nextModalSlide:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1155px) {
+	.containerFeaturedWorks {
+		max-width: 770px;
+	}
+}
+
+/* ourServices */
+
+.ourServices {
+	min-height: 1618px;
+	background-color: #f9fbfb;
+}
+
+.containerOurServices {
+	max-width: 1154px;
+	margin: 0 auto;
+}
+
+.contentOurServices {
+	font-size: 0;
+	margin: 124px auto 0 auto;
+}
+
+/* ... / slideServicesFirst */
+
+.sliderServicesFirstContainer {
+	width: 652px;
+	height: 422px;
+}
+
+.lineOfServicesFirstSlider {
+	width: 1304px;
+}
+
+.slideServicesFirst {
+	float: left;
+	width: 652px;
+	height: 422px;
+	background: url("img/ourServices/servicesBlock/firstServicesContainer.png") no-repeat center;
+	background-size: cover;
+}
+
+/* ... / slideServicesSecond */
+
+.sliderServicesSecondContainer {
+	width: 474px;
+	height: 422px;
+}
+
+.lineOfServicesSecondSlider {
+	width: 948px;
+}
+
+.slideServicesSecond {
+	float: left;
+	width: 474px;
+	height: 422px;
+	background: url("img/ourServices/servicesBlock/secondServicesContainer.png") no-repeat center;
+	background-size: cover;
+}
+
+/* ... / slideServicesThird */
+
+.sliderServicesThirdContainer {
+	width: 652px;
+	height: 371px;
+}
+
+.lineOfServicesThirdSlider {
+	width: 1304px;
+}
+
+.slideServicesThird {
+	float: left;
+	width: 652px;
+	height: 371px;
+	background: url("img/ourServices/servicesBlock/thirdServicesContainer.png") no-repeat center;
+	background-size: cover;
+}
+
+/* ... / slideServicesFourth */
+
+.sliderServicesFourthContainer {
+	width: 474px;
+	height: 371px;
+}
+
+.lineOfServicesFourthSlider {
+	width: 948px;
+}
+
+.slideServicesFourth {
+	float: left;
+	width: 474px;
+	height: 371px;
+	background: url("img/ourServices/servicesBlock/fourthServicesContainer.png") no-repeat center;
+	background-size: cover;
+}
+
+/* ... / slideServicesFifth */
+
+.sliderServicesFifthContainer {
+	width: 472px;
+	height: 370px;
+}
+
+.lineOfServicesFifthSlider {
+	width: 946px;
+}
+
+.slideServicesFifth {
+	float: left;
+	width: 472px;
+	height: 370px;
+	background: url("img/ourServices/servicesBlock/fifthServicesContainer.png") no-repeat center;
+	background-size: cover;
+}
+
+/* ... / slideServicesSixth */
+
+.sliderServicesSixthContainer {
+	width: 654px;
+	height: 370px;
+}
+
+.lineOfServicesSixthSlider {
+	width: 1308px;
+}
+
+.slideServicesSixth {
+	float: left;
+	width: 654px;
+	height: 370px;
+	background: url("img/ourServices/servicesBlock/sixthServiceContainer.png") no-repeat center;
+	background-size: cover;
+}
+
+/* ... / generalForServices */
+
+.servicesGeneralContainer {
+	overflow: hidden;
+	display: inline-block;
+	margin: 7px;
+}
+
+.servicesGeneralLine {
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+.servicesGeneralLine:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* generalForServices / textOptions */
+
+.textOptions h2 {
+	font-family: "MerriweatherRegular";
+	font-size: 20px;
+	margin: 0;
+}
+
+.textOptions p, .textOptions a {
+	font-family: "RalewayRegular";
+	margin: 0;
+}
+
+.textOptions p {
+	font-size: 16px;
+}
+
+.textOptions a {
+	font-size: 20px;
+}
+
+.textOptions:hover .knowMoreButton img {
+	margin: 0 0 0 24px;
+}
+
+.knowMoreButton img {
+	transition: 0.6s ease;
+	margin: 0 0 0 14px;
+}
+
+.escapeButton:hover img {
+	transform: rotate(180deg);
+}
+
+.escapeButton img {
+	transition: 0.6s ease;
+	cursor: pointer;
+}
+
+/* generalForServices / greyBackground */
+
+.grayBackground {
+	cursor: pointer;
+}
+
+.grayBackground h2 {
+	padding: 130px 0 28px 65px;
+	color: #f6f6f6;
+}
+
+.grayBackground p, .grayBackground a {
+	padding: 0 110px 53px 65px;
+	line-height: 1.6em;
+	color: #efefef;
+}
+
+/* generalForServices / blueBackground */
+
+.blueBackground {
+	background: #70f5ea;
+}
+
+.blueBackground h2 {
+	padding: 64px 0 28px 65px;
+	color: #132928;
+}
+
+.blueBackground p, .blueBackground a {
+	padding: 0 100px 25px 65px;
+	line-height: 1.8em;
+	color: #1c3d3b;
+}
+
+@media (max-width: 1154px) {
+	.containerOurServices {
+		max-width: 666px;
+	}
+
+	.contentOurServices {
+		margin: 124px auto;
+	}
+
+	.sliderServicesFirstContainer,
+	.sliderServicesSecondContainer,
+	.sliderServicesThirdContainer,
+	.sliderServicesFourthContainer,
+	.sliderServicesFifthContainer,
+	.sliderServicesSixthContainer {
+		width: 652px;
+		height: 422px;
+	}
+
+	.lineOfServicesFirstSlider,
+	.lineOfServicesSecondSlider,
+	.lineOfServicesThirdSlider,
+	.lineOfServicesFourthSlider,
+	.lineOfServicesFifthSlider,
+	.lineOfServicesSixthSlider {
+		width: 1304px;
+	}
+
+	.slideServicesFirst,
+	.slideServicesSecond,
+	.slideServicesThird,
+	.slideServicesFourth,
+	.slideServicesFifth,
+	.slideServicesSixth {
+		width: 652px;
+		height: 422px;
+	}
+}
+
+/* smallTeam */
+
+.smallTeam {
+	min-height: 1313px;
+}
+
+.containerSmallTeam {
+	max-width: 1158px;
+	margin: 0 auto;
+}
+
+.contentSmallTeam {
+	font-size: 0;
+	margin: 116px 0 0 0 ;
+}
+
+.employeePhoto {
+	position: relative;
+	display: inline-block;
+}
+
+.employeePhoto img {
+	margin: 8px;
+	cursor: pointer;
+}
+
+.blockArrow::after {
+	left: 22px;
+	content: ''; 
+    position: absolute; 
+	top: -30px;
+    border: 10px solid transparent;
+    border-bottom: 20px solid #70f5ea;
+}
+
+.emloyeeInfo {
+	position: absolute;
+	bottom: 23px;
+	left: 26px;
+	width: 335px;
+	height: 241px;
+	background-color: #70f5ea;
+	box-shadow: 0px 0px 28px rgba(29, 15, 15, 0.1);
+	-webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+.emloyeeInfo p {
+	font-family: "RalewayRegular";
+	font-size: 16px;
+	color: #16312e;
+	margin: 0 54px 0 38px; 
+}
+
+.employeeNameAndPost {
+	margin: 43px 0 27px 38px; 
+}
+
+.employeeNameAndPost h2 {
+	font-family: "MerriweatherBold";
+	font-size: 20px;
+	color: #2b3131;
+	display: inline;
+}
+
+.employeeNameAndPost p{
+	font-family: "MerriweatherBold";
+	font-size: 14px;
+	font-style: italic;
+	color: #767776;
+	display: inline-block;
+	margin: 0 0 0 6px;
+}
+
+.socialMediaLogo {
+	margin: 22px 0 0 30px;
+}
+
+@media (max-width: 1158px) {
+	.containerSmallTeam {
+		max-width: 772px;
+	}
+
+	.contentSmallTeam {
+		margin: 116px 0 100px 0 ;
+	}
+}
+
+/* whatTheySays */
+
+.whatTheySays {
+	min-height: 922px;
+	background-color: #f9fbfb;
+}
+
+.containerWhatTheySays {
+	max-width: 1141px;
+	margin: 0 auto;
+}
+
+.whatTheySaysSlider {
+	min-height: 469px;
+	max-width: 1141px;
+	float: left;
+	margin: 138px 0 0 0;
+}
+
+.sliderWhatTheySaysContainer {
+	height: 410px;
+	width: 1141px;
+	overflow: hidden;
+}
+
+.lineOfWhatTheySaysSlider {
+	width: 4564px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+.lineOfWhatTheySaysSlider::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.slideWhatTheySays {
+	width: 1141px;
+	float: left;
+}
+
+.reviewerPhoto {
+	position: relative;
+	width: 393px;
+	float: left;
+}
+
+.frontImgWhatTheySays {
+	position: relative;
+	left: 9.4%;
+	box-shadow: 0px 0px 28px rgba(29, 15, 15, 0.1);
+}
+
+.backImgWhatTheySays {
+	position: absolute;
+	top: 6.4%;
+}
+
+.reviewText {
+	width: 666px;
+	height: 362px;
+	background-color: #eaebed;
+	float: right;
+	text-align: center;
+	margin: 26px 0 0 0;
+	border-radius: 1%;
+}
+
+.reviewText p {
+	font-family: "RalewayRegular";
+	font-size: 16px;
+	color: #16312e;
+	margin: 0 104px 34px 104px; 
+	line-height: 1.6em;
+}
+
+.reviewerName {
+	margin: 101px 0 30px 0;
+}
+
+.reviewerName h2{
+	font-family: "MerriweatherBold";
+	font-size: 20px;
+	color: #2b3131;
+	display: inline;
+}
+
+.reviewerName p{
+	font-family: "MerriweatherBold";
+	font-size: 14px;
+	font-style: italic;
+	color: #767776;
+	display: inline-block;
+	margin: 0 0 0 6px;
+	letter-spacing: 0.1em;
+}
+
+.sliderWhatTheySaysDots {
+	display: inline-block;
+	margin: 47px 0 0 176px;
+}
+
+.whatTheySaysDots {
+	height: 10px;
+	width: 10px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	cursor: pointer;
+}
+
+.activeDotsForWhatTheySays {
+	background-color: #71f6eb;
+} 
+
+.switchButtons {
+	float: right;
+}
+
+.previousButton, .nextButton {
+	display: inline-block;
+	text-align: center;
+	font-family: "MontserratBold";
+	font-size: 25px;
+	font-weight: bolder;
+	color: #b2b2b2;
+	margin: 6px 0 0 29px;
+	padding: 12px 19px ;
+	background-color: white;
+	cursor: pointer;
+	box-shadow: 0px 0px 28px rgba(29, 15, 15, 0.1);
+	border-radius: 9%;
+	transition: all ease 0.8s;
+}
+
+.previousButton:hover, .nextButton:hover {
+	color: #25514d;
+	background-color: #71f6eb;
+}
+
+@media (max-width: 1141px) {
+.containerWhatTheySays {
+	max-width: 958px;
+}
+
+.whatTheySaysSlider {
+	max-width: 958px;
+}
+
+.sliderWhatTheySaysContainer {
+	width: 958px;
+}
+
+.lineOfWhatTheySaysSlider {
+	width: 3832px;
+}
+
+.slideWhatTheySays {
+	width: 958px;
+}
+
+.reviewText {
+	width: 560px;
+}
+
+.reviewerName {
+	margin: 70px 0 30px 0;
+}
+
+.reviewText p {
+	margin: 0 px 34px 104px; 
+}
+}
+
+/* partners */
+
+.partners {
+	min-height: 387px;
+}
+
+.containerPartners {
+	max-width: 1253px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.containerPartners img {
+	margin: 0 44px;
+	vertical-align: middle;
+}
+
+.topStringPartnersLogo img{
+	margin-top: 108px;
+}
+
+.bottomStringPartnersLogo img{
+	margin-top: 45px;
+}
+
+/* contacts */
+
+.contacts {
+	min-height: 704px;
+	background: url("img/contacts/contactsBackground.png") no-repeat center center;
+	background-size: cover;
+}
+
+.containerContacts {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 121px 0 0 0;
+}
+
+.formInformation {
+	width: 614px;
+	height: 460px;
+	background: rgba(77, 88, 98, 0.9);
+	font-size: 0;
+	display: inline-block;
+}
+
+.formInformation input, .formInformation textarea {
+	box-sizing: border-box;
+	text-align: left;
+	font-family: "RalewayRegular";
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #b6bcc0;
+	outline: none;
+	margin: 6px 31px;
+	padding: 18px 5px;
+	background-color: transparent;
+	width: 550px;
+	color: #b2babf;
+}
+
+.formInformation input {
+	height: 47px;
+}
+
+.formInformation input:first-of-type {
+	margin-top: 29px;
+}
+
+.formInformation textarea {
+	resize: none;
+	height: 122px;
+	margin-bottom: 0;
+}
+
+input::-moz-placeholder {
+	color: #b2babf;
+}
+
+input::-webkit-input-placeholder { 
+	color: #b2babf; 
+}
+
+textarea::-moz-placeholder { 
+	color: #b2babf; 
+}
+
+textarea::-webkit-input-placeholder { 
+	color: #b2babf; 
+}
+
+.formContanctsSend input{
+	width: 244px;
+	height: 53px;
+	font-family: "MontserratRegular";
+	font-weight: bolder;
+	padding: 18px 38px;
+	border-radius: 2%;
+	color: #214744;
+	background-color: #6eeee4;
+	border: none;
+	margin-top: 32px;
+	letter-spacing: 0.2em;
+	cursor: pointer;
+}
+
+.contactInformation {
+	width: 500px;
+	height: 460px;
+	background: rgba(77, 88, 98, 0.9);
+	float: right;
+	font-size: 0;
+}
+
+.contactInformation p {
+	font-family: "RalewayRegular";
+	font-size: 15px;
+	color: #c8cdd0;
+	margin: 0 31px;
+	line-height: 1.5em;
+}
+
+.contactInformation p:first-of-type {
+	margin: 31px 31px;
+}
+
+.contacts a {
+	color: #c8cdd0;
+}
+
+.map {
+	margin: 24px 22px 0 22px;
+}
+
+.map iframe {
+	width: 455px;
+	height: 224px;
+	border: none;
+} 
+
+@media (max-width: 1113px) {
+	.contacts {
+		height: 1118px;
+	}
+
+	.containerContacts {
+		width: 614px;
+	}
+
+	.contactInformation {
+		width: 614px;
+		margin-top: 26px;
+	}
+
+	.map iframe {
+		width: 569px;
+	} 
+}
+
+/* footer */
+
+footer {
+	min-height: 312px;
+	background-color: #262b2e;
+}
+
+.containerFooter {
+	max-width: 340px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0;
+}
+
+.followUs, .copyright  {
+	margin: 0;
+	padding: 90px 0 16px 0;
+	font-family: "RalewayRegular";
+	font-size: 16px;
+	color: #d4d5d5;
+	width: 100%;
+}
+
+.followUsLogos {
+	background-color: #424648;
+	width: 44px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 4.5px;
+}
+
+.followUsLogos img {
+	padding: 10px;
+	vertical-align: top;
+}
+
+.followUsLogos:hover {
+	background-color: #6eeee4;
+}
+
+.followUsLogos img:hover {
+	filter: invert(100%);
+}
+
+.copyright {
+	padding: 43px 0 0 0;
+	color: #7d8082;
+}
+
+/* fonts */
+
+@font-face {
+	font-family: "MontserratBold";
+	src: url("source/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MontserratRegular";
+	src: url("source/fonts/Montserrat-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MerriweatherBold";
+	src: url("source/fonts/Merriweather-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MerriweatherRegular";
+	src: url("source/fonts/Merriweather-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayRegular";
+	src: url("source/fonts/Raleway-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

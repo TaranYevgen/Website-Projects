@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Shopno</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="img/shortcutIcon.png" rel="shortcut icon">
+</head>
+
+<body>
+	<nav class="sideMenu" id="sideMenu">
+		<img src="img/ourServices/escape.png" alt="escape" class="closeButton" onclick="closeSideMenu()">
+		<a href="#aboutUs">ABOUT US</a>
+		<a href="#featuredWorks">FEATURED WORKS</a>
+		<a href="#ourServices">OUR SERVICES</a>
+		<a href="#peopleSay">PEOPLE SAY</a>
+		<a href="#contact">CONTACTS</a>
+	</nav>
+
+	<main id="main">
+		<section class="home">
+			<div class="containerHome">
+				<div class="navigationMenu">
+					<div class="logoString">
+						<p>SH<span>O</span>PNO</p>
+					</div>
+
+					<div class="dropDownMenu">
+						<img class="hamburgerButton" src="img/home/hamburgerButton.png" alt="hamburgerButton"
+							onclick="openSideMenu()">
+					</div>
+				</div>
+
+				<div style="clear: both;"></div>
+
+				<div class="announcementHome">
+					<h1>SAY HEELLO TO <span>SHOPNO!</span><br><span>AGENCY</span> CORPORATE SHOPNO THEME</h1>
+					<a href="" class="contactButton">CONTACT US</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="aboutUs">
+			<div class="containerAboutUs">
+				<div class="announcementSection">
+					<a name="aboutUs">
+						<h2>ABOUT US</h2>
+					</a>
+					<p>LOREM IPSUN DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+				</div>
+
+				<div class="contentAboutUs">
+					<div class="sliderAboutUs">
+						<div class="sliderAboutUsContainer">
+							<div class="lineOfAboutUsSlider" id="lineOfAboutUsSlider">
+								<div class="slideAboutUs">
+									<img class="backImgAboutUs" src="img/aboutUs/greyRectangle.png" alt="greyRectangle">
+									<img class="frontImgAboutUs" src="img/aboutUs/chair.png" alt="chair">
+								</div>
+								<div class="slideAboutUs">
+									<img class="backImgAboutUs" src="img/aboutUs/greyRectangle.png" alt="greyRectangle">
+									<img class="frontImgAboutUs" src="img/aboutUs/chair.png" alt="chair">
+								</div>
+								<div class="slideAboutUs">
+									<img class="backImgAboutUs" src="img/aboutUs/greyRectangle.png" alt="greyRectangle">
+									<img class="frontImgAboutUs" src="img/aboutUs/chair.png" alt="chair">
+								</div>
+								<div class="slideAboutUs">
+									<img class="backImgAboutUs" src="img/aboutUs/greyRectangle.png" alt="greyRectangle">
+									<img class="frontImgAboutUs" src="img/aboutUs/chair.png" alt="chair">
+								</div>
+							</div>
+						</div>
+						<div class="sliderAboutUsDots">
+							<span class="aboutUsDots" onclick="showAboutUsSlide(0)"></span>
+							<span class="aboutUsDots" onclick="showAboutUsSlide(1)"></span>
+							<span class="aboutUsDots" onclick="showAboutUsSlide(2)"></span>
+							<span class="aboutUsDots" onclick="showAboutUsSlide(3)"></span>
+						</div>
+					</div>
+
+					<div class="aboutUsText">
+						<h2>WE ACTYALLY DO AMAZING WORKS</h2>
+						<p>A visual approach is an approach to a runway at an airport conducted under instrument flight
+							rules. The pilot must at all times have either the airport or the preceding aircraft in
+							approach correct sight. conducted under instrument flight rules. The pilot must at all
+							times.</p>
+						<p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+						<h2>WHY WE ARE THE GREAT?</h2>
+						<p>A visual approach is an approach to a runway at an airport conducted under instrument flight
+							rules. <br> The preceding aircraft in approach correct sight.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="featuredWorks">
+			<div class="containerFeaturedWorks">
+				<div class="announcementSection">
+					<a name="featuredWorks">
+						<h2>FEATURED WORKS</h2>
+					</a>
+					<p>LOREM IPSUN DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+				</div>
+
+				<div class="contentFeaturedWorks">
+					<div class="worksShowcase">
+						<img src="img/featuredWorks/firstWork.png" alt="firstWork"
+							onclick="openModal(); currentWork(1)">
+						<img src="img/featuredWorks/secondWork.png" alt="secondWork"
+							onclick="openModal(); currentWork(2)">
+						<img src="img/featuredWorks/thirdWork.png" alt="thirdWork"
+							onclick="openModal(); currentWork(3)">
+						<img src="img/featuredWorks/fourthWork.png" alt="fourthWork"
+							onclick="openModal(); currentWork(4)">
+						<img src="img/featuredWorks/fifthWork.png" alt="fifthWork"
+							onclick="openModal(); currentWork(5)">
+						<img src="img/featuredWorks/sixthWork.png" alt="sixthWork"
+							onclick="openModal(); currentWork(6)">
+					</div>
+
+					<div class="modal" id="modal">
+						<span onclick="closeModal()">×</span>
+
+						<div class="modalContent">
+							<div class="modalSlide"><img src="img/featuredWorks/firstWork.png"></div>
+							<div class="modalSlide"><img src="img/featuredWorks/secondWork.png"></div>
+							<div class="modalSlide"><img src="img/featuredWorks/thirdWork.png"></div>
+							<div class="modalSlide"><img src="img/featuredWorks/fourthWork.png"></div>
+							<div class="modalSlide"><img src="img/featuredWorks/fifthWork.png"></div>
+							<div class="modalSlide"><img src="img/featuredWorks/sixthWork.png"></div>
+
+							<a class="previousModalSlide" onclick="plusModalSlide(-1)">❮</a>
+							<a class="nextModalSlide" onclick="plusModalSlide(1)">❯</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ourServices">
+			<div class="containerOurServices">
+				<div class="announcementSection">
+					<a name="ourServices">
+						<h2>OUR SERVICES</h2>
+					</a>
+					<p>LOREM IPSUN DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+				</div>
+
+				<div class="contentOurServices">
+					<div class="servicesGeneralContainer sliderServicesFirstContainer">
+						<div class="servicesGeneralLine lineOfServicesFirstSlider" id="lineOfServicesFirstSlider">
+							<div class="slideServicesFirst grayBackground textOptions"
+								onclick="showBlueBackgroundFirstServices('.slideServicesFirst', 'lineOfServicesFirstSlider')">
+								<h2>DESIGNING IS THE COOL LOVE FOR</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that ...</p>
+								<a class="knowMoreButton">KNOW MORE <img src="img/ourServices/arrow.png"
+										alt="arrow"></a>
+							</div>
+
+							<div class="slideServicesFirst blueBackground textOptions">
+								<h2>DESIGNING IS THE COOL LOVE FOR.</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+									something and you middle most this job was posted less than five minutes ago, and we
+									think it’s a good match for you. If you submit a proposal now, you’ll be one of the
+									first candidates. You may even catch the client while they’re still online.</p>
+								<a class="escapeButton"
+									onclick="showGrayBackgroundFirstServices('.slideServicesFirst', 'lineOfServicesFirstSlider')"><img
+										src="img/ourServices/escape.png" alt="escape"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="servicesGeneralContainer sliderServicesSecondContainer">
+						<div class="servicesGeneralLine lineOfServicesSecondSlider" id="lineOfServicesSecondSlider">
+							<div class="slideServicesSecond grayBackground textOptions"
+								onclick="showBlueBackgroundFirstServices('.slideServicesSecond', 'lineOfServicesSecondSlider')">
+								<h2>COOL PSD DESIGN</h2>
+								<p>Our most popular service is our we know that sometimes it’s something and you middle
+									most...</p>
+								<a class="knowMoreButton">KNOW MORE <img src="img/ourServices/arrow.png"
+										alt="arrow"></a>
+							</div>
+
+							<div class="slideServicesSecond blueBackground textOptions">
+								<h2>COOL PSD DESIGN.</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+									something and you middle most this job was posted less than five minutes ago, and we
+									think it’s a good match for you. If you submit a proposal now, you’ll be one of the
+									first candidates. You may even catch the client while they’re still online.</p>
+								<a class="escapeButton"
+									onclick="showGrayBackgroundFirstServices('.slideServicesSecond', 'lineOfServicesSecondSlider')"><img
+										src="img/ourServices/escape.png" alt="escape"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="servicesGeneralContainer sliderServicesThirdContainer">
+						<div class="servicesGeneralLine lineOfServicesThirdSlider" id="lineOfServicesThirdSlider">
+							<div class="slideServicesThird grayBackground textOptions"
+								onclick="showBlueBackgroundFirstServices('.slideServicesThird', 'lineOfServicesThirdSlider')">
+								<h2>DESIGNING IS THE COOL</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that ...</p>
+								<a class="knowMoreButton">KNOW MORE <img src="img/ourServices/arrow.png"
+										alt="arrow"></a>
+							</div>
+
+							<div class="slideServicesThird blueBackground textOptions">
+								<h2>DESIGNING IS THE COOL.</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+									something and you middle most this job was posted less than five minutes ago, and we
+									think it’s a good match for you. If you submit a proposal now, you’ll be one of the
+									first candidates. You may even catch the client while they’re still online.</p>
+								<a class="escapeButton"
+									onclick="showGrayBackgroundFirstServices('.slideServicesThird', 'lineOfServicesThirdSlider')"><img
+										src="img/ourServices/escape.png" alt="escape"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="servicesGeneralContainer sliderServicesFourthContainer">
+						<div class="servicesGeneralLine lineOfServicesFourthSlider" id="lineOfServicesFourthSlider">
+							<div class="slideServicesFourth grayBackground textOptions"
+								onclick="showBlueBackgroundFirstServices('.slideServicesFourth', 'lineOfServicesFourthSlider')">
+								<h2>DESIGNING IS THE COOL</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that ...</p>
+								<a class="knowMoreButton">KNOW MORE <img src="img/ourServices/arrow.png"
+										alt="arrow"></a>
+							</div>
+
+							<div class="slideServicesFourth blueBackground textOptions">
+								<h2>DESIGNING IS THE COOL.</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+									something and you middle most this job was posted less than five minutes ago, and we
+									think it’s a good match for you.</p>
+								<a class="escapeButton"
+									onclick="showGrayBackgroundFirstServices('.slideServicesFourth', 'lineOfServicesFourthSlider')"><img
+										src="img/ourServices/escape.png" alt="escape"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="servicesGeneralContainer sliderServicesFifthContainer">
+						<div class="servicesGeneralLine lineOfServicesFifthSlider" id="lineOfServicesFifthSlider">
+							<div class="slideServicesFifth grayBackground textOptions"
+								onclick="showBlueBackgroundFirstServices('.slideServicesFifth', 'lineOfServicesFifthSlider')">
+								<h2>DESIGNING IS THE COOL</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that ...</p>
+								<a class="knowMoreButton">KNOW MORE <img src="img/ourServices/arrow.png"
+										alt="arrow"></a>
+							</div>
+
+							<div class="slideServicesFifth blueBackground textOptions">
+								<h2>DESIGNING IS THE COOL.</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+									something and you middle most this job was posted less than five minutes ago, and we
+									think it’s a good match for you.</p>
+								<a class="escapeButton"
+									onclick="showGrayBackgroundFirstServices('.slideServicesFifth', 'lineOfServicesFifthSlider')"><img
+										src="img/ourServices/escape.png" alt="escape"></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="servicesGeneralContainer sliderServicesSixthContainer">
+						<div class="servicesGeneralLine lineOfServicesSixthSlider" id="lineOfServicesSixthSlider">
+							<div class="slideServicesSixth grayBackground textOptions"
+								onclick="showBlueBackgroundFirstServices('.slideServicesSixth', 'lineOfServicesSixthSlider')">
+								<h2>DESIGNING IS THE COOL</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that ...</p>
+								<a class="knowMoreButton">KNOW MORE <img src="img/ourServices/arrow.png"
+										alt="arrow"></a>
+							</div>
+
+							<div class="slideServicesSixth blueBackground textOptions">
+								<h2>DESIGNING IS THE COOL.</h2>
+								<p>Our most popular service is our Virtual Receptionist. We know that sometimes it’s
+									something and you middle most this job was posted less than five minutes ago, and we
+									think it’s a good match for you. If you submit a proposal now, you’ll be one of the
+									first candidates. You may even catch the client while they’re still online.</p>
+								<a class="escapeButton"
+									onclick="showGrayBackgroundFirstServices('.slideServicesSixth', 'lineOfServicesSixthSlider')"><img
+										src="img/ourServices/escape.png" alt="escape"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="smallTeam">
+			<div class="containerSmallTeam">
+				<div class="announcementSection">
+					<a name="smallTeam">
+						<h2>SMALL TEAM</h2>
+					</a>
+					<p>LOREM IPSUN DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+				</div>
+
+				<div class="contentSmallTeam">
+					<div class="employeePhoto" onclick="showEmployeeInfoSlide(0)">
+						<img src="img/smallTeam/employeePhoto/firstEmployeePhoto.png" alt="firstEmployeePhoto">
+						<div class="emloyeeInfo">
+							<div class="blockArrow"></div>
+							<div class="employeeNameAndPost">
+								<h2>CARMELA CORLEONE</h2>
+								<p>/ Lead Developer</p>
+							</div>
+							<p>Lorem Ipsum is not simply is an action designer random text
+								It has roots in a piece. </p>
+							<div class="socialMediaLogo">
+								<a href=""><img src="img/smallTeam/socialMediaLogo/facebookLogo.png"
+										alt=facebookLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/tweeterLogo.png" alt=tweeterLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/ballLogo.png" alt=ballLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/mailPhoto.png" alt=mailPhoto></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="employeePhoto" onclick="showEmployeeInfoSlide(1)">
+						<div class="emloyeeInfo">
+							<div class="blockArrow"></div>
+							<div class="employeeNameAndPost">
+								<h2>PETER CLEMENZ</h2>
+								<p>/ UI Designer</p>
+							</div>
+							<p>Lorem Ipsum is not simply is an action designer random text
+								It has roots in a piece. </p>
+							<div class="socialMediaLogo">
+								<a href=""><img src="img/smallTeam/socialMediaLogo/facebookLogo.png"
+										alt=facebookLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/tweeterLogo.png" alt=tweeterLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/ballLogo.png" alt=ballLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/mailPhoto.png" alt=mailPhoto></a>
+							</div>
+						</div>
+						<img src="img/smallTeam/employeePhoto/secondEmployeePhoto.png" alt="secondEmployeePhoto">
+					</div>
+
+					<div class="employeePhoto" onclick="showEmployeeInfoSlide(2)">
+						<div class="emloyeeInfo">
+							<div class="blockArrow"></div>
+							<div class="employeeNameAndPost">
+								<h2>VITO CORLEONE</h2>
+								<p>/ Founder</p>
+							</div>
+							<p>Lorem Ipsum is not simply is an action designer random text
+								It has roots in a piece. </p>
+							<div class="socialMediaLogo">
+								<a href=""><img src="img/smallTeam/socialMediaLogo/facebookLogo.png"
+										alt=facebookLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/tweeterLogo.png" alt=tweeterLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/ballLogo.png" alt=ballLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/mailPhoto.png" alt=mailPhoto></a>
+							</div>
+						</div>
+						<img src="img/smallTeam/employeePhoto/thirdEmployeePhoto.png" alt="thirdEmployeePhoto">
+					</div>
+
+					<div class="employeePhoto" onclick="showEmployeeInfoSlide(3)">
+						<div class="emloyeeInfo">
+							<div class="blockArrow"></div>
+							<div class="employeeNameAndPost">
+								<h2>MICHEL CORLEONE</h2>
+								<p>/ CEO</p>
+							</div>
+							<p>Lorem Ipsum is not simply is an action designer random text
+								It has roots in a piece. </p>
+							<div class="socialMediaLogo">
+								<a href=""><img src="img/smallTeam/socialMediaLogo/facebookLogo.png"
+										alt=facebookLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/tweeterLogo.png" alt=tweeterLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/ballLogo.png" alt=ballLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/mailPhoto.png" alt=mailPhoto></a>
+							</div>
+						</div>
+						<img src="img/smallTeam/employeePhoto/fourthEmployeePhoto.png" alt="fourthEmployeePhoto">
+					</div>
+
+					<div class="employeePhoto" onclick="showEmployeeInfoSlide(4)">
+						<div class="emloyeeInfo">
+							<div class="blockArrow"></div>
+							<div class="employeeNameAndPost">
+								<h2>TOM HAGEN</h2>
+								<p>/ Consultant</p>
+							</div>
+							<p>Lorem Ipsum is not simply is an action designer random text
+								It has roots in a piece. </p>
+							<div class="socialMediaLogo">
+								<a href=""><img src="img/smallTeam/socialMediaLogo/facebookLogo.png"
+										alt=facebookLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/tweeterLogo.png" alt=tweeterLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/ballLogo.png" alt=ballLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/mailPhoto.png" alt=mailPhoto></a>
+							</div>
+						</div>
+						<img src="img/smallTeam/employeePhoto/fifthEmployeePhoto.png" alt="fifthEmployeePhoto">
+					</div>
+
+					<div class="employeePhoto" onclick="showEmployeeInfoSlide(5)">
+						<div class="emloyeeInfo">
+							<div class="blockArrow"></div>
+							<div class="employeeNameAndPost">
+								<h2>CONNIE CORLEONE</h2>
+								<p>/ UX Designer</p>
+							</div>
+							<p>Lorem Ipsum is not simply is an action designer random text
+								It has roots in a piece. </p>
+							<div class="socialMediaLogo">
+								<a href=""><img src="img/smallTeam/socialMediaLogo/facebookLogo.png"
+										alt=facebookLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/tweeterLogo.png" alt=tweeterLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/ballLogo.png" alt=ballLogo></a>
+								<a href=""><img src="img/smallTeam/socialMediaLogo/mailPhoto.png" alt=mailPhoto></a>
+							</div>
+						</div>
+						<img src="img/smallTeam/employeePhoto/firstEmployeePhoto.png" alt="firstEmployeePhoto">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="whatTheySays">
+			<div class="containerWhatTheySays">
+				<div class="announcementSection">
+					<a name="peopleSay">
+						<h2>WHAT THEY SAYS</h2>
+					</a>
+					<p>LOREM IPSUN DOLOR SIT AMET EVENT LANDING TEMPLATE</p>
+				</div>
+
+				<div class="whatTheySaysSlider">
+					<div class="sliderWhatTheySaysContainer">
+						<div class="lineOfWhatTheySaysSlider" id="lineOfWhatTheySaysSlider">
+							<div class="slideWhatTheySays">
+								<div class="reviewerPhoto">
+									<img class="backImgWhatTheySays" src="img/whatThaySay/greyRectangleWhatThaySay.png"
+										alt="greyRectangle">
+									<img class="frontImgWhatTheySays"
+										src="img/whatThaySay/reviewAvatars/firstReviewAvatar.png"
+										alt="firstReviewAvatar">
+								</div>
+
+								<div class="reviewText">
+									<div class="reviewerName">
+										<h2>ANTHONY SOPRANO</h2>
+										<p>/ Lead Developer</p>
+									</div>
+									<p>Lorem Ipsum is simply dummy text of the printing and you
+										standard dummy know that text ever since the 1500s, when an unknown printer took
+										a galley of type and scrambled it to make a type specimen book.</p>
+									<div class="ratingBar">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+									</div>
+								</div>
+							</div>
+
+							<div class="slideWhatTheySays">
+								<div class="reviewerPhoto">
+									<img class="backImgWhatTheySays" src="img/whatThaySay/greyRectangleWhatThaySay.png"
+										alt="greyRectangle">
+									<img class="frontImgWhatTheySays"
+										src="img/whatThaySay/reviewAvatars/firstReviewAvatar.png"
+										alt="firstReviewAvatar">
+								</div>
+
+								<div class="reviewText">
+									<div class="reviewerName">
+										<h2>AL RAYHAN</h2>
+										<p>/ UI/UX DESIGNER</p>
+									</div>
+									<p>Lorem Ipsum is simply dummy text of the printing and you
+										standard dummy know that text ever since the 1500s, when an unknown printer took
+										a galley of type and scrambled it to make a type specimen book.</p>
+									<div class="ratingBar">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+									</div>
+								</div>
+							</div>
+
+							<div class="slideWhatTheySays">
+								<div class="reviewerPhoto">
+									<img class="backImgWhatTheySays" src="img/whatThaySay/greyRectangleWhatThaySay.png"
+										alt="greyRectangle">
+									<img class="frontImgWhatTheySays"
+										src="img/whatThaySay/reviewAvatars/firstReviewAvatar.png"
+										alt="firstReviewAvatar">
+								</div>
+
+								<div class="reviewText">
+									<div class="reviewerName">
+										<h2>CORRADO SOPRANO</h2>
+										<p>/ Founder</p>
+									</div>
+									<p>Lorem Ipsum is simply dummy text of the printing and you
+										standard dummy know that text ever since the 1500s, when an unknown printer took
+										a galley of type and scrambled it to make a type specimen book.</p>
+									<div class="ratingBar">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+									</div>
+								</div>
+							</div>
+
+							<div class="slideWhatTheySays">
+								<div class="reviewerPhoto">
+									<img class="backImgWhatTheySays" src="img/whatThaySay/greyRectangleWhatThaySay.png"
+										alt="greyRectangle">
+									<img class="frontImgWhatTheySays"
+										src="img/whatThaySay/reviewAvatars/firstReviewAvatar.png"
+										alt="firstReviewAvatar">
+								</div>
+
+								<div class="reviewText">
+									<div class="reviewerName">
+										<h2>PAUL GALTIERI</h2>
+										<p>/ CEO</p>
+									</div>
+									<p>Lorem Ipsum is simply dummy text of the printing and you
+										standard dummy know that text ever since the 1500s, when an unknown printer took
+										a galley of type and scrambled it to make a type specimen book.</p>
+									<div class="ratingBar">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+										<img src="img/whatThaySay/star.png" alt="star">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="sliderWhatTheySaysDots">
+						<span class="whatTheySaysDots" onclick="showWhatTheySaysSlide(0)"></span>
+						<span class="whatTheySaysDots" onclick="showWhatTheySaysSlide(1)"></span>
+						<span class="whatTheySaysDots" onclick="showWhatTheySaysSlide(2)"></span>
+						<span class="whatTheySaysDots" onclick="showWhatTheySaysSlide(3)"></span>
+					</div>
+
+					<div class="switchButtons">
+						<p class="previousButton" id="previousButton">&#60;</p>
+						<p class="nextButton" id="nextButton">&#62;</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="partners">
+			<div class="containerPartners">
+				<div class="topStringPartnersLogo">
+					<a href=""><img src="img/partners/rkoLogo.png" alt="rkoLogo"></a>
+					<a href=""><img src="img/partners/audioProLogo.png" alt="audioProLogo"></a>
+					<a href=""><img src="img/partners/infinityLogo.png" alt="infinityLogo"></a>
+				</div>
+				<div class="bottomStringPartnersLogo">
+					<a href=""><img src="img/partners/sportSystemLogo.png" alt="sportSystemLogo"></a>
+					<a href=""><img src="img/partners/swanLogo.png" alt="swanLogo"></a>
+					<a href=""><img src="img/partners/swanserLogo.png" alt="swanserLogo"></a>
+					<a href=""><img src="img/partners/audioProLogo.png" alt="audioProLogo"></a>
+					<a href=""><img src="img/partners/infinityLogo.png" alt="infinityLogo"></a>
+					<a href=""><img src="img/partners/rkoLogo.png" alt="rkoLogo"></a>
+				</div>
+		</section>
+
+		<section class="contacts">
+			<div class="containerContacts">
+				<div class="formInformation">
+					<form name="form" action="javascript:void(null);" method="POST" id="formMessage">
+						<input type="text" id="name" name="name" placeholder="Name*" autocomplete="off" maxlength="200"
+							required>
+
+						<input type="text" id="subject" name="subject" placeholder="Subject*" autocomplete="off"
+							maxlength="200" required>
+
+						<input type="text" id="email" name="email" placeholder="E-mail*" autocomplete="off"
+							maxlength="200" required>
+
+						<textarea id="message" name="message" placeholder="Message*" autocomplete="off"
+							maxlength="1000"></textarea>
+
+						<div class="formContanctsSend">
+							<input type="submit" id="submit" value="SEND MESSAGE">
+						</div>
+					</form>
+				</div>
+
+				<div class="contactInformation">
+					<div class="contactAddresses">
+						<p>
+							<a name="contact">Adress line 1</a><br>
+							Adress line 2<br>
+							Phone: +548 945645<br>
+							Fax: +456456 54546
+						</p>
+						<p>
+							Web: www.designagency.net<br>
+							E-mail: info@designagency.net
+						</p>
+					</div>
+					<div class="map" id="map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.9650533968324!2d-117.76934178479524!3d33.658067380714996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcde82907fe8bb%3A0xcb7104743d635730!2sBlizzard%20Entertainment!5e0!3m2!1suk!2sua!4v1632499355693!5m2!1suk!2sua"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="containerFooter">
+			<p class="followUs">
+				FOLLOW US
+			</p>
+
+			<a class="followUsLogos" href=""><img class="brokenImg" src="img/footer/pLogo.png" alt="pLogo"></a>
+			<a class="followUsLogos" href=""><img src="img/footer/facebookLogo.png" alt="facebookLogo"></a>
+			<a class="followUsLogos" href=""><img src="img/footer/tweeterLogo.png" alt="tweeterLogo"></a>
+			<a class="followUsLogos" href=""><img src="img/footer/ballLogo.png" alt="ballLogo"></a>
+
+			<p class="copyright">Copyright Masum Parvej, All Rights Reserved</p>
+		</div>
+	</footer>
+
+	<script src="script/sideMenu.js"></script>
+	<script src="script/sliderAboutUs.js"></script>
+	<script src="script/worksLightbox.js"></script>
+	<script src="script/sliderServices.js"></script>
+	<script src="script/employeeInfo.js"></script>
+	<script src="script/sliderWhatThaySays.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script/formMailShopno.js"></script>
+</body>
+
+</html>
