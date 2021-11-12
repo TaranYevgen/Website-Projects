@@ -1,0 +1,569 @@
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* general */
+
+/*.containerForWhiteBackground {
+	max-width: 910px;
+	margin: 0 auto;
+}
+ .containerForWhiteBackground p {
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+	color: #383838;
+	text-align: left;
+} */
+
+.leftColumn {
+	float: left;
+}
+
+.rightColumn {
+	float: right;
+}
+
+.announcementSection {
+	padding: 100px 0 0 0;
+}
+
+.announcementSection h2 {
+	font-size: 55px;
+	font-family: "FuturaMDBold";
+	float: left;
+	padding: 0 10px 0 0;
+	margin: 0;
+}
+
+/* home */
+
+.home {
+	min-height: 768px;
+	background: url("img/home/bg-top.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.containerFirstY {
+	max-width: 942px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 55px;
+	font-family: "FuturaMDBold";
+	color: #fffefe;
+	text-align: center;
+	padding: 136px 0 0 0;
+	margin: 0 0 23px 0;
+}
+
+.logo {
+	margin: 0 auto;
+	padding: 49px 0 0 0;
+}
+
+.logo img {
+	float:left;
+}
+
+.logo ul {
+	font-size: 16px;
+	font-family: "FuturaMDBold";
+	color: white;
+	margin: 0;
+	padding: 25px 0 0 0;
+	float: right;
+}
+
+.logo ul li {
+	padding: 0 13px;
+	display: inline;
+}
+
+.logo ul li a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo ul li a:after {
+	display: block;
+    content: "";
+    background-color: #ed9b34;
+    height: 3px;
+    width: 0%;
+    left: 50%;
+	bottom: -10px;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.logo ul li a:hover:after, 
+.logo ul li a:focus:after {
+	width: 100%;
+}
+
+.stick {
+	margin-top: 0;
+	text-align: center;
+}
+
+.arrow {
+	margin: 90px auto 0 auto;
+	font-size: 18px;
+	width: 100px;
+	font-family: "FuturaMDMedium";
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+.arrow p {
+	margin: 0 0 20px 0; 
+}
+
+.arrow:hover img {
+	margin: 5px 0 0 0;
+	transition: 0.6s ease;
+}
+
+@media (max-width: 980px) {
+	.arrow {
+		margin: 2.7em auto 0 auto;
+	}
+}
+
+/* aboutUs */
+
+.aboutUs {
+	min-height: 1443px;
+}
+
+.containerAboutUs {
+	max-width: 910px;
+	margin: 0 auto;
+}
+
+.containerAboutUs p {
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+	color: #383838;
+	text-align: left;
+	margin: 0 0 34px 0;
+}
+
+.aboutUs .announcementSection {
+	color: #383838;
+}
+
+.aboutBlock {
+	height: 177px;
+	width: 48%;
+	box-shadow: 15px 15px 25px rgba(29, 15, 15, 0.2);
+	margin: 0 0 40px 0;
+}
+
+.aboutBlock p {
+	color: white;
+	text-align: center;
+	padding: 60px 5px 60px 5px;
+	line-height: 25px;
+	font-size: 22px;
+	margin: 0;
+}
+
+.about0 {
+	width: 910px;
+	height: 157px;
+	margin: 50px 0 40px 0;
+}
+
+.about1 {
+	background-image: url("img/aboutUs/img1.png");
+}
+
+.about2 {
+	background-image: url("img/aboutUs/img2.png");
+}
+
+.about3 {
+	background-image: url("img/aboutUs/img3.png");
+}
+
+.about4 {
+	background-image: url("img/aboutUs/img4.png");
+}
+
+.aboutColumnBlock {
+	width: 48%;
+}
+
+/* products */
+
+.products {
+	background: url("img/products/products.jpg") no-repeat center center;
+	background-size: cover;
+	min-height: 904px;
+}
+
+.containerProducts {
+	max-width: 918px;
+	margin: 0 auto;
+}
+
+.products .announcementSection {
+	color: white;
+}
+
+.productsAbout {
+	margin: 35px 0 25px 0;
+	height: 48px;
+}
+
+.productsColumn {
+	width: 23%;
+}
+
+.microStick {
+	width: 5%;
+}
+
+.products p {
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+	color: white;
+	margin: 0;
+}
+
+.productImgBg {
+	background: url("img/products/software.png") no-repeat center center;
+	height: 476px;
+}
+
+.productImgBg p {
+	margin: 0 0 32px 0;
+}
+
+/* features */
+
+.features {
+	min-height: 526px;
+}
+
+.containerFeatures {
+	max-width: 938px;
+	margin: 0 auto;
+}
+
+.benefits {
+    text-align: center;
+	padding: 109px 0 0 0;
+	margin: 0 0 80px 0;
+}
+
+.benefits li {
+	padding: 0 20px;
+	width: 268px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+}
+
+.benefits img {
+	display: block;
+	margin: 0 auto;
+}
+
+.benefits span {
+	display: block;
+	margin: 24px auto 13px auto;
+	width: 173px;
+	color: #282828;
+	font-weight: bolder;
+} 
+
+.benefits li p {
+	color: #404040;
+}
+
+/* payment */
+
+.payment {
+	background-image: url("img/payment/payment.jpg");
+	min-height: 893px;
+}
+
+.containerPayment {
+	margin: 0 auto;
+	max-width: 928px;
+}
+
+.announcementPaymentSection {
+	padding: 109px 0 33px 0;
+}
+
+.announcementPaymentSection h2 {
+	font-size: 30px;
+	font-family: "FuturaMDBold";
+	color: white;
+	float: left;
+	padding: 0 10px 0 0;
+	margin: 0 0 20px 0;
+}
+
+.smallStick {
+	width: 5%;
+}
+
+.contentPayment {
+	height: 562px;
+}
+
+.contentPayment p {
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+	color: white;
+	text-align: left;
+	margin: 0 0 30px 0;
+}
+
+.earth {
+	float: right;
+	padding: 30px 0 30px 30px;
+}
+
+/* team */
+
+.team {
+	min-height: 1593px;
+}
+
+.containerTeam {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.team .announcementSection {
+	color: #383838;
+}
+
+.contentTeam {
+	margin: 39px 0 0 0;
+	height: 1186px;
+}
+
+.contentTeam p {
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+	color: #282828;
+	margin: 0 0 30px 0;
+}
+
+.leftSideAvatar {
+	float: left;
+	padding-right: 40px;
+}
+
+.rightSideAvatar {
+	float: right;
+	padding-left: 40px;
+}
+
+.avatar {
+	position: relative;
+	margin: 0;
+	height: 377px;
+}
+
+.avatar img {
+	box-shadow: 15px 15px 25px rgba(29, 15, 15, 0.2);
+}
+
+.employeeSignature {
+	position: absolute;
+	text-align: left;
+	bottom: 45px;
+	font-size: 18px;
+	color: white;
+}
+
+.leftSideSignature {
+	left: 52px;
+}
+
+.rightSideSignature {
+	left: 90px;
+}
+
+.employeeSignature strong {
+	font-size: 22px;
+	letter-spacing: 0.1em;
+}
+
+.employeeBlock {
+	margin: 0 0 50px 0;
+}
+
+.leftSideEmployeeBlock {
+	text-align: left;	
+}
+
+.rightSideEmployeeBlock {
+	text-align: right;	
+}
+
+/* contactUs */
+
+.contactUs {
+	background: url("img/contactUs/contacts.jpg") no-repeat center center;
+	background-size: cover;
+	min-height: 818px;
+}
+
+.containerContactUs {
+	margin: 0 auto;
+	width: 943px;
+}
+
+.contactUs .announcementSection {
+	color: white;
+}
+
+.leftColumnContact {
+	clear: both;
+	float: left;
+	margin: 45px 0 0 0;
+}
+
+.leftColumnContact p {
+	font-size: 22px;
+	font-family: "FuturaMDMedium";
+	color: white;
+	text-decoration: underline;
+	margin: 0 0 15px 0;
+}
+
+.phoneAndMail {
+	margin: 42px 0;
+}
+
+.phoneAndMail p {
+	margin: 0 0 35px 0;
+}
+
+.phoneNumber {
+	text-decoration: none!important;
+}
+
+.phoneNumber img {
+	vertical-align: middle;
+	padding-right: 30px;
+	padding-left: 8px;
+}
+
+.email img {
+	vertical-align: middle;
+	padding-right: 15px;
+}
+
+.rightColimnContact {
+	float: right;
+	width: 40%;
+	margin: 45px 0 0 0;
+}
+
+.contactLabel {
+    font-family: "FuturaMDBold";
+	font-size: 22px;
+    color: #ffffff;
+	margin: 0 0 11px 0;
+}
+
+.formColumn {
+    text-align: left;
+}
+
+.formColumn input, .formColumn textarea {
+    width: 100%;
+    height: 55px;
+	box-sizing: border-box;
+	font-family: "FuturaMDMedium";
+	font-size: 22px;
+	color: white;
+    border: none;
+	border-bottom: 2px solid rgba(255, 255, 255,1);
+	background: transparent;
+	padding: 20px 1px;
+    outline: none;
+	margin: 0 0 14px 0;
+}
+
+.formColumn textarea {
+    height: 115px;
+    resize: none;
+    margin: 0 0 40px 0;
+} 
+
+.formContanctsSend {
+	cursor: pointer;
+	padding: 15px 0;
+    background-color: rgba(237,155,52,1);
+	text-align: center;
+}
+.formContanctsSend input {
+	cursor: pointer;
+	padding: 0;
+	font-size: 30px;
+	font-family: "FuturaMDBold";
+	margin: 0 0 0 0;
+	border: none;
+}
+
+input::-moz-placeholder {
+	color: white;
+}
+
+textarea::-moz-placeholder {
+	color: white;
+}
+
+input::-webkit-input-placeholder {
+	color: white;
+}
+
+textarea::-webkit-input-placeholder {
+	color: white;
+}
+
+/* fonts */
+
+@font-face {
+	font-family: "FuturaMDBold";
+	src: url("source/fonts/tt0144m_.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "FuturaMDMedium";
+	src: url("source/fonts/tt0142m_.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
