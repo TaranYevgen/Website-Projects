@@ -1,0 +1,930 @@
+a {
+	text-decoration: none;
+}
+
+.announcementSection {
+	text-align: center;
+	padding: 94px 0 0 0;
+	margin: 0 auto;
+	max-width: 563px;
+}
+
+.announcementSection h2 {
+	font-family: "BigNoodleTitling";
+	font-size: 48px;
+	color: #3d3d3d;
+	margin: 0;
+	letter-spacing: 0.12em;
+}
+
+.announcementSection .underline {
+	width: 153px;
+	border: 2px solid #f15324;
+	margin: 0 auto;
+}
+
+.announcementSection p {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: #919191;
+	margin: 27px 0 0 0;
+	line-height: 1.2em;
+}
+
+.announcementSectionBlackTheme {
+	text-align: center;
+	padding: 56px 0 0 0;
+	margin: 0 auto;
+	max-width: 563px;
+}
+
+.announcementSectionBlackTheme h2 {
+	font-family: "RobotoRegular";
+	font-size: 36px;
+	color: #f6f6f6;
+	margin: 0 0 10px 0;
+	letter-spacing: 0.3em;
+}
+
+.announcementSectionBlackTheme 
+.underlineBlackTheme {
+	width: 86px;
+	border: 1px solid #404040;
+	margin: 0 auto;
+}
+
+/* header */
+
+.header {
+	max-width: 1003px;
+	margin: 0 auto;
+}
+
+.manuContainer {
+	padding: 50px 0;
+	background-color: white;
+}
+
+.sideMenuItems a {
+	display: block;
+	text-align: center;
+	font-family: "RobotoRegular";
+	font-size: 20px;
+	color: black;
+	margin: 10px auto;
+	border-bottom: 2px solid white;
+}
+
+.sideMenuItems a:hover {
+	font-family: "RobotoBold";
+	border-bottom: 2px solid #e84c3d;
+	width: 70%;
+}
+
+/* home */
+
+.home {
+	min-height: 708px;
+	background-color: #353535;
+}
+
+.homeCarousel {
+	padding: 313px 0 140px 0;
+}
+
+.homeCarouselContainer {
+	text-align: center;
+	font-family: "BigNoodleTitling";
+	color: #d6d5d5;
+}
+
+.homeCarouselContainer h1 {
+	font-size: 72px;
+	letter-spacing: 0.1em;
+	margin: 0;
+}
+
+.homeCarouselContainer p {
+	font-size: 36px;
+	letter-spacing: 0.11em;
+	margin: 0;
+}
+
+.homeCarousel .carousel-control-prev, 
+.homeCarousel .carousel-control-next {
+	top: 15%;
+}
+
+.scrollDownIcon {
+	text-align: center;
+}
+
+.scrollDownIcon a {
+	display: block;
+}
+
+.scrollDownIcon img {
+	margin: 0 0 19px 0;
+}
+
+.scrollDownIcon a:hover img {
+	margin: 7px 0 12px 0;
+	transition: all ease 0.3s;
+}
+
+.scrollDownIcon p {
+	font-family: "RobotoBold";
+	font-size: 12px;
+	color: white;
+	padding: 0 0 25px 0;
+	margin: 0;
+}
+
+/* aboutUs */
+
+.aboutUs {
+	min-height: 568px; 
+	max-width: 1027px;
+	margin: 0 auto;
+}
+
+.peculiarities {
+	margin: 58px 0 0 0;
+}
+
+.peculiaritiesBlock {
+	background-color: #ebebeb;
+	height: 195px;
+	text-align: center;
+	margin: 0 0 24px 0;
+}
+
+.creativeDesignBlock img {
+	margin: 31px 0 14px 0;
+}
+
+.uniquPortfolioBlock img {
+	margin: 37px 0 20px 0;
+}
+
+.infiniteUpdatesBlock img {
+	margin: 46px 0 29px 0;
+}
+
+.peculiaritiesBlock span {
+	display: block;
+	font-family: "RobotoBold";
+	font-size: 18px;
+	color: #707070;
+	margin: 0 0 7px 0;
+}
+
+.peculiaritiesBlock p {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: #707070;
+}
+
+/* watchBehindTheScene */
+
+.watchBehindTheScene {
+	min-height: 430px;
+}
+
+.textAboutVideo {
+	background-color: #171f23;
+	text-align: center;
+	padding: 0;
+	min-height: 430px;
+}
+
+.containerTextAboutVideo {
+	max-width: 516px;
+	margin: 0 auto;
+}
+
+.textAboutVideo h2 {
+	font-family: "RobotoBold";
+	font-size: 30px;
+	color: #e7e7e7;
+	margin: 110px 0 26px 0;
+}
+
+.textAboutVideo p {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: #535556;
+	margin: 0 0 36px 0;
+}
+
+.jumpButton {
+	font-family: "RobotoBold";
+	font-size: 14px;
+	color: #e9dddd;
+	padding: 11px 29px;
+	background-color: #e64e40;
+	border-bottom: 2px solid #b51809;
+}
+
+.jumpButton:hover {
+	color: #fff;
+	transition: all ease 0.8s;
+}
+
+.videoSection {
+	min-height: 430px;
+	margin: 0;
+	padding: 0;
+	background: url("img/watchBehindTheScene/videoIntro.png") no-repeat center center;
+	background-size: cover;
+}
+
+.videoBlock {
+	position: relative;
+}
+
+.videoBlock iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 430px;
+	display: none;
+}
+
+.videoBlock a {
+	cursor: pointer;
+	position: absolute;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 140%);
+	height: 106px;
+	width: 92px; 
+}
+
+.videoBlock img {
+	padding: 25px 0 33px 0;
+}
+
+@media (max-width: 390px) {
+	.textAboutVideo h2 {
+		margin: 80px 0 26px 0;
+	}
+}
+
+/* ourWorks */
+
+.ourWorks {
+	min-height: 865px;
+}
+
+.ourWorks .container-sm {
+	max-width: 693px;
+	margin: 0 auto;
+}
+
+.ourWorks .container-fluid {
+	padding: 0;
+}
+
+.ourWorksCarousel {
+	margin: 26px 0 26px 0;
+}
+
+.ourWorksSliderButtons {
+	font-size: 0;
+	margin: 85px 0 0 0;
+	text-align: center;
+}
+
+.ourWorksSliderButtons button {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: #4a4a4a;
+	padding: 0;
+	margin: 0 23px;
+	border-radius: 0;
+}
+
+.activeOurWorksSliderButtons {
+	font-weight: bolder;
+	border-bottom: 1px solid #e84c3d;
+}
+
+.ourWorksCarousel .col-sm {
+	max-width: 273px;
+	font-size: 0;
+	padding: 0;
+	transition: 0.3s;
+}
+
+.ourWorksCarousel .col-sm:hover {
+	box-shadow: 0 0 20px #4d4d4d, 0 0 20px #4d4d4d;
+}
+
+.ourWorksCarousel .row {
+	justify-content: center;
+}
+
+.ourWorkModal .modal-content {
+	width: 546px;
+	height: 450px;
+}
+
+.ourWorkModal img {
+	width: 100%;
+	height: 100%;
+}
+
+/* sponsors */
+
+.sponsors {
+	min-height: 340px;
+	background-color: #1c1c1c;
+}
+
+.sponsorsContainer {
+	max-width: 973px;
+	text-align: center;
+	/* margin: 0 auto; */
+}
+
+.sponsorsContainer .carousel {
+	padding: 129px 0;
+}
+
+.sponsorsContainer img {
+	vertical-align: top;
+	margin: 10px 10px
+}
+
+/* whoWeAre */
+
+.whoWeAre {
+	min-height: 813px;
+}
+
+.whoWeAre .container-sm {
+	max-width: 1028px;
+	margin: 0 auto;
+}
+
+.whoWeAreCarousel {
+	margin: 84px auto 0 auto;
+}
+
+.employeeCard, .employeeSkills {
+	background-color: #ebebeb;
+	height: 436px;
+	margin: 0 0 24px 0;
+}
+
+.employeeCard {
+	text-align: center;
+	color: #3d3d3d;
+}
+
+.employeeSkills {
+	padding: 123px 54px 0 64px;
+}
+
+.employeePhoto {
+	display: block;
+	margin: 0 auto;
+	padding: 72px 0 31px 0;
+}
+
+.employeeCard span, 
+.employeeSkills span {
+	font-family: "RobotoBold";
+	font-size: 20px;
+	letter-spacing: 0.04em;
+}
+
+.employeeCard p,
+.employeeSkills p {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	letter-spacing: 0.06em;
+	margin: 0 0 20px 0;
+}
+
+.employeeSkills p {
+	color: #a09f9f;
+	letter-spacing: 0em;
+	margin: 26px 0 36px 0;
+}
+
+.whoWeAreCarousel .carousel-indicators [data-bs-target] {
+    width: 10px; 
+    height: 10px; 
+    background-color: #8e8181;
+    border-radius: 100%; 
+}
+
+.whoWeAreCarousel .carousel-indicators {
+    justify-content: left;
+    margin-left: 13.5%;
+	margin-bottom: 4.93752rem;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+	height: 1px;
+	margin-top: 10px;
+}
+
+.progress .progressBarLabel {
+	font-size: 14px;
+}
+
+.progressPhotoshopHeader {
+	margin: 0 44px 0 0;
+}
+
+.progressIllustratorHeader {
+	margin: 0 37px 0 0;
+}
+
+.progressSketchHeader {
+	margin: 0 76px 0 0;
+}
+
+.progressEffectsHeader {
+	margin: 0 22px 0 0;
+}
+
+.progressFooter {
+	margin: 0 0 0 11px ;
+}
+
+.progressOrange {
+	background-color: #e64e40;
+}
+
+.progressWhite {
+	background-color: #ffffff;
+}
+
+@media (max-width: 870px) {
+	.whoWeAreCarousel .carousel-indicators {
+		margin-left: 12%;
+	}
+}
+
+@media (max-width: 745px) {
+	.employeeSkills {
+		padding-top: 80px;
+	}
+}
+
+@media (max-width: 429px) {
+	.employeeSkills {
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.whoWeAreCarousel .carousel-indicators {
+		justify-content: center;
+		margin-left: 15%;
+		margin-bottom: 2rem;
+	}
+}
+
+/* someFeatures */
+
+.someFeatures {
+	min-height: 384px;
+	background-color: #171f23;
+}
+
+.someFeatures .conrainer-sm {
+	max-width: 1004px;
+	margin: 0 auto;
+}
+
+.features {
+	margin: 44px 0 0 0;
+}
+
+.features .col-sm-3 {
+	text-align: center;
+}
+
+.features img {
+	vertical-align: baseline;
+}
+
+.features span {
+	display: block;
+	font-size: 18px;
+	margin: 29px 0 20px 0;
+}
+
+.features p {
+	font-size: 48px;
+}
+
+.features span, .features p {
+	font-family: "RobotoRegular";	
+	color: #e7e8e8;
+}
+
+/* blogPost */
+
+.blogPosts {
+	min-height: 795px;
+}
+
+.blogPosts .container-sm {
+	max-width: 1057px;
+	margin: 0 auto;
+}
+
+.postsBlock {
+	margin: 72px 0 0 0;
+}
+
+.somePost {
+	position: relative;
+	height: 426px;
+	background-color: #ebebeb;
+	margin: 0 0 24px 0;
+}
+
+.postImage {
+	height: 100%; max-height: 163.5pt; 
+	width: 100%; max-width: 240pt;
+}
+
+.blur {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.2); 
+	backdrop-filter: blur(8px);
+	height: 100%; max-height: 163.5pt; 
+	width: 100%; max-width: 240pt;
+	opacity: 0;
+}
+
+.watchButton, .shareButton {
+	position: absolute;
+	top: 22%;
+	width: 43px;
+	height: 43px;
+	background-color: #f6e5e0;
+	border-radius: 50%;
+	opacity: 0;
+}
+
+.watchButton {
+	right: 33%;
+}
+
+.shareButton {
+	left: 33%;
+}
+
+.watchButton img {
+	padding: 14px 9px;
+}
+
+.shareButton img {
+	padding: 11px 10px;
+}
+
+.watchButton:hover, 
+.shareButton:hover {
+	background-color: #e87e5d;
+}
+
+.watchButton:hover img,
+.shareButton:hover img {
+	filter: brightness(100);
+}
+
+.somePost:hover .watchButton,
+.somePost:hover .shareButton,
+.somePost:hover .blur {
+	transition: all ease 0.5s;
+	opacity: 1;
+}
+
+.somePost h2 {
+	font-family: "RobotoRegular";
+	font-size: 18px;
+	color: #656565;
+	margin: 30px 10px 17px 25px;
+}
+
+.somePost .postText {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: #797979;
+	margin: 0 35px 0 25px;
+}
+
+.socialMediaAttributes {
+	margin: 10px 0 0 0;
+}
+
+.socialMediaAttributes span {
+	font-family: "RobotoRegular";
+	font-size: 10px;
+	color: #a4a3a3;
+}
+
+.writingDate {
+	float: left;
+	margin: 0 0 0 25px;
+}
+
+.likesAndComments {
+	float: right;
+	margin: 0 30px 0 0;
+}
+
+@media (min-width: 368px) and (max-width: 767px) {
+	.somePost {
+		width: 320px;
+		margin: 0 auto 24px auto;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 797px) {
+	.somePost h2 {
+		margin: 15px 10px 10px 25px;
+	}
+
+	.socialMediaAttributes {
+		margin: 5px 0 0 0;
+	}
+}
+
+@media (min-width: 767px) and (max-width: 900px) {
+	.watchButton {
+		right: 26%;
+	}
+	
+	.shareButton {
+		left: 26%;
+	}
+}
+
+/* chosePlan */
+
+.chosePlan {
+	min-height: 706px;
+	background-color: #171f23;
+}
+
+.chosePlan .container-sm {
+	max-width: 963px;
+	padding-bottom: 50px;
+}
+
+.offers {
+	margin: 55px 0 0 0;
+}
+
+.offers .col-sm-3 {
+	padding: 0;
+}
+
+.someOffer {
+	background-color: #1f282c;
+	border: 1px solid #171f23;
+	height: 449px;
+	text-align: center;
+}
+
+.someOffer:hover {
+	border: 1px solid #f6744b;
+}
+
+.priceBlock {
+	background-color: #0e1316;
+	height: 128px;
+	padding: 30px 0 0 0;
+	margin: 0 0 43px 0;
+}
+
+.someOffer p {
+	font-family: "RobotoRegular";
+	color: white;
+	letter-spacing: 0.05em;
+}
+
+.boldText {
+	font-size: 14px;
+	font-weight: bolder;
+	margin: 0;
+}
+
+.priceText {
+	font-size: 36.328px;
+	margin: 0;
+}
+
+.priceText span {
+	font-size: 24px;
+}
+
+.planPeculiarities {
+	margin: 0 0 13px 0;
+}
+
+.someOffer:hover .planPeculiarities span {
+	color: #f6744b;
+}
+
+.someOffer button {
+	background-color: #f6744b;
+	padding: 8px 32px;
+	font-family: "RobotoRegular";
+	color: white;
+	margin: 54px 0 0 0;
+}
+
+/* getInTouch */
+
+.getInTouch {
+	min-height: 693px;
+}
+
+.getInTouch .container-sm {
+	max-width: 775px;
+}
+
+.formInformation {
+	margin: 93px 0 0 0;
+}
+
+.formInformation label {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	font-weight: bolder;
+	color: #696969;
+	letter-spacing: 0.1em;
+}
+
+.formInformation label span {
+	color: #f6744b;
+	font-weight: normal;
+}
+
+.formInformation input, .formInformation textarea {
+	text-align: left;
+	font-family: "RobotoRegular";
+	font-size: 13px;
+	border: none;
+	border-bottom: 1px solid #cacaca;
+	border-radius: 0;
+	outline: none;
+	padding: 18px 5px;
+	background-color: transparent;
+}
+
+.formInformation input {
+	height: 47px;
+	margin:0 0 40px 0;
+}
+
+.formInformation textarea {
+	resize: none;
+	height: 84px;
+	margin: 0 0 60px 0;
+}
+
+
+input::-moz-placeholder {
+	color: #cacaca;
+}
+
+input::-webkit-input-placeholder { 
+	color: #cacaca; 
+}
+
+textarea::-moz-placeholder { 
+	color: #cacaca; 
+}
+
+textarea::-webkit-input-placeholder { 
+	color: #cacaca; 
+}
+
+.formInformation button {
+	background-color: #f6744b;
+	color: white;
+	padding: 15px 43px;
+	font-family: "RobotoRegular";
+	font-weight: bolder;
+	letter-spacing: 0.1em;
+	border-radius: 0;
+	margin: 0 0 42px 0;
+}
+
+/* locateOnMap */
+
+.locateOnMap {
+	min-height: 84px;
+	background-color: #0c1215;
+}
+
+.locateOnMap .container-fluid {
+	text-align: center;
+	padding: 0;
+}
+
+.locateOnMap .btn {
+	font-family: "RobotoBold";
+	font-size: 24px;
+	color: white;
+	letter-spacing: 0.1em;
+	margin: 23px 0 0 0;
+	border: none;
+}
+
+.locateOnMap .btn img {
+	vertical-align: 0.15em;
+	margin: 0 0 0 14px;
+}
+
+.locateOnMap:hover .btn img {
+	vertical-align: 0.09em;
+	transition: all ease 0.2s;
+}
+
+.map {
+	margin: 23px 0 0 0;
+	height: 500px;
+}
+
+.map iframe {
+	width: 100%;
+	height: 500px;
+	border: none;
+} 
+
+/* footer */
+
+footer {
+	min-height: 239px;
+	background-color: #171f23;
+	text-align: center;
+	padding: 49px 0 0 0;
+}
+
+footer .container-sm {
+	max-width: 298px;
+}
+
+.logoName {
+	font-family: "BigNoodleTitling";
+	font-size: 24px;
+	color: white;
+	margin: 6px 0 10px 0;
+}
+
+.description {
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: white;
+	margin: 0;
+}
+
+.socialMediaBlockFooter {
+	margin: 9px 0 0 0;
+}
+
+.socialMediaBlockFooter img {
+	margin: 0 3px;
+}
+
+/* fonts */
+
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("source/fonts/Roboto-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RobotoBold";
+	src: url("source/fonts/Roboto-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "BigNoodleTitling";
+	src: url("source/fonts/bignoodletitlingrusbydaymarius.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
